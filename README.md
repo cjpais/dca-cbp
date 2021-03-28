@@ -1,6 +1,6 @@
 # dca-cbp
 
-Needed a quick script to easily Dollar Cost Average on Coinbase Pro.
+Needed a quick script to easily Dollar Cost Average Bitcoin on Coinbase Pro.
 
 ## Installation
 
@@ -21,3 +21,9 @@ export CBPRO_PASS="PASSPHRASE"
 * `crontab -e`
 
 * `30 6 * * * /usr/bin/python3 <PATH_TO_DCA_CBP>/buy_dca.py`
+
+The above cronjob will run at 6:30AM every day.
+
+## Notes
+
+You may want to change the dollar value to buy. It is set at $5 by default, but I am using $20 for myself.
