@@ -26,4 +26,4 @@ The above cronjob will run at 6:30AM every day.
 
 ## Notes
 
-You may want to change the dollar value to buy. It is set at $5 by default, but I am using $20 for myself.
+You may want to change the dollar value to buy. It is set at $20 by default.
