@@ -9,8 +9,8 @@ Needed a quick script to easily Dollar Cost Average on Coinbase Pro.
 * `pip install -r requirements.txt`
 
 2. Set the following environment variables with your Coinbase Pro API Credentials
-
-* ```bash
+ 
+```bash
 export CBPRO_KEY="API_KEY"
 export CBPRO_SECRET="SECRET_KEY"
 export CBPRO_PASS="PASSPHRASE"
